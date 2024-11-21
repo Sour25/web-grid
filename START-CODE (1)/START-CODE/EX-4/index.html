@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Layout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="dashboard-container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <h1 class="logo">
+            <img src="logo1.jpg" alt="Logo" class="logo-image">
+          </h1>
+          
+      <ul class="menu">
+        <ul class="menu">
+            <ul class="menu">
+                <li>
+                  <img src="dashboard.jpg" alt="Dashboard Icon" class="menu-icon"> Dashboard
+                </li>
+                <li>
+                  <img src="project.jpg" alt="Projects Icon" class="menu-icon"> Projects
+                </li>
+                <li>
+                  <img src="mytask.png" alt="My Task Icon" class="menu-icon"> My Task
+                </li>
+                <li>
+                  <img src="calander.jpg" alt="Calendar Icon" class="menu-icon"> Calendar
+                </li>
+                <li>
+                  <img src="time.webp" alt="Time Manage Icon" class="menu-icon"> Time Manage
+                </li>
+                <li>
+                  <img src="report.jpg" alt="Reports Icon" class="menu-icon"> Reports
+                </li>
+                <li>
+                  <img src="setting.jpg" alt="Settings Icon" class="menu-icon"> Settings
+                </li>
+              </ul>
+              
+          </ul>
+          
+      </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Top Bar -->
+      <div class="top-bar">
+        <input type="text" placeholder="Search" class="search-bar">
+        <div class="profile">
+          <img src="profile.jpg" alt="Profile Picture">
+        </div>
+      </div>
+
+      <!-- Content Grid -->
+      <div class="content-grid">
+        <!-- Task Cards -->
+        <div class="task-card">
+          <h3>Google</h3>
+          <p>Task Done: 25 / 50</p>
+          <div class="progress">
+            <div class="progress-bar" style="width: 50%;"></div>
+          </div>
+          <p class="status high">In Progress - High</p>
+        </div>
+        <div class="task-card">
+          <h3>Slack</h3>
+          <p>Task Done: 30 / 30</p>
+          <div class="progress">
+            <div class="progress-bar" style="width: 100%;"></div>
+          </div>
+          <p class="status medium">Completed - Medium</p>
+        </div>
+
+        <!-- My Tasks -->
+        <div class="tasks">
+          <h3>My Tasks</h3>
+          <ul>
+            <li>Create Wireframe</li>
+            <li>Slack Logo Design</li>
+            <li>Dashboard Design</li>
+          </ul>
+        </div>
+
+        <!-- Calendar -->
+        <div class="calendar">
+          <h3>February 2020</h3>
+          <div class="calendar-grid">
+            <!-- Simple Grid for Dates -->
+            <span>Mon</span><span>Tue</span><span>Wed</span>
+            <!-- Add numbers manually for brevity -->
+            <span>1</span><span>2</span><span>3</span><span>...</span>
+          </div>
+        </div>
+
+        <!-- Messages -->
+        <div class="messages">
+          <h3>Messages</h3>
+          <ul>
+            <li>John Doe: Hi Angelica!...</li>
+            <li>Charmie: Do you need that design?</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
